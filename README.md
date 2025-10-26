@@ -1,3 +1,4 @@
+<img width="800" height="463" alt="1000542484" src="https://github.com/user-attachments/assets/4d8cd761-5e52-4ae1-99b1-3efa3490df7c" />
 ![1000542328](https://github.com/user-attachments/assets/78cd01c8-8124-488a-8317-461e1eba3685)
 <img width="992" height="721" alt="1000542483" src="https://github.com/user-attachments/assets/d6e82138-c6d7-4146-900f-ffe0dbf17711" />
 # RuletaJust
