@@ -75,7 +75,6 @@ Juga y gana premios Just
   </style>
 </head>
 <body>
-
   <div>
     <div id="wheel">
       <div class="segment">10% Descuento</div>
@@ -87,26 +86,20 @@ Juga y gana premios Just
 <div class="segment">Set de Muestras</div>
       <div class="segment">Set de Muestras</div>
     </div>
-
     <button id="spinButton">Girar Ruleta</button>
-
-    <div id="form">
+  <div id="form">
       <input type="text" id="name" placeholder="Tu nombre" required><br>
       <input type="text" id="phone" placeholder="Tu teléfono/WhatsApp" required><br>
       <button id="submitData">Enviar Datos</button>
     </div>
-
-    <div id="contact">
+ <div id="contact">
       @gabysuescunjust • 2494343125
     </div>
   </div>
-
-  <script>
+ <script>
     const wheel = document.getElementById('wheel');
     const button = document.getElementById('spinButton');
-    let spinning = false;
-
-    button.addEventListener('click', () => {
+    let spinning = falfalseñ  button.addEventListener('click', () => {
       if (spinning) return;
       spinning = true;
       const randDeg = Math.floor(Math.random() * 360) + 720; // al menos 2 vueltas
@@ -116,8 +109,7 @@ Juga y gana premios Just
         alert('¡Ganaste! Contactame para reclamar tu premio.');
       }, 4000);
     });
-
-    document.getElementById('submitData').addEventListener('click', () => {
+document.getElementById('submitData').addEventListener('click', () => {
       const name =
 document.getElementById('name').value;
       const phone = document.getElementById('phone').value;
